@@ -26,7 +26,7 @@ export default function ProfilePhoto() {
         {!imgFailed ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src="/profile.jpg"
+            src="/Profile.jpg"
             alt="Samuel Olayinka"
             className="w-full h-full object-cover"
             onError={() => setImgFailed(true)}
