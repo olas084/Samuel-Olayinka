@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   title: "Samuel Olayinka — Founder & CEO, Bintrest",
   description:
     "Full-stack engineer and fintech systems architect. Founder & CEO of Bintrest. Building across binary options, asset management, crypto, predictions, and sports data.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

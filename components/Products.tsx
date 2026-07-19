@@ -1,6 +1,5 @@
 const PRODUCTS = [
   {
-    
     name: "Bintrest",
     tag: "Brokerage Platform",
     tone: "gold",
@@ -9,7 +8,6 @@ const PRODUCTS = [
     role: "Founder & CEO",
   },
   {
-   
     name: "VixGPT",
     tag: "AI Market Assistant",
     tone: "signal",
@@ -18,7 +16,6 @@ const PRODUCTS = [
     role: "Co-founder & CTO",
   },
   {
-   
     name: "Aipolypredict",
     tag: "Prediction Engine",
     tone: "alert",
@@ -50,12 +47,9 @@ export default function Products() {
             const tone = toneMap[p.tone];
             return (
               <div
-                key={p.symbol}
+                key={p.name}
                 className={`flex flex-col border ${tone.border} bg-ink rounded-2xl p-6`}
               >
-                <div className="flex items-center justify-between font-mono text-xs tracking-widest">
-                  <span className={tone.text}>{p.symbol}</span>
-                </div>
                 <h3 className="font-display text-xl font-semibold text-paper mt-3">
                   {p.name}
                 </h3>
