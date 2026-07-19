@@ -1,6 +1,6 @@
 const PRODUCTS = [
   {
-    symbol: "BNTR",
+    
     name: "Bintrest",
     tag: "Brokerage Platform",
     tone: "gold",
@@ -9,7 +9,7 @@ const PRODUCTS = [
     role: "Founder & CEO",
   },
   {
-    symbol: "VIXG",
+   
     name: "VixGPT",
     tag: "AI Market Assistant",
     tone: "signal",
@@ -18,7 +18,7 @@ const PRODUCTS = [
     role: "Co-founder & CTO",
   },
   {
-    symbol: "AIPP",
+   
     name: "Aipolypredict",
     tag: "Prediction Engine",
     tone: "alert",
